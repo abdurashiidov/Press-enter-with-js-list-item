@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS 10-day HW</title>
+</head>
+<body>
+
+
+    <style>
+        body{
+            background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+            background-repeat: no-repeat;
+            height: 100vh;
+            overflow: hidden;
+            font-family: sans-serif;
+            margin-left: 600px;
+        }
+        #button{
+            margin-top: 100px;
+            background: linear-gradient(#e66465, #9198e5);
+            border: none;
+            border-radius: 10px;
+            font-size: 25px;
+            align-self: center;
+            padding: 10px;
+        }
+        #button:hover{
+             background: linear-gradient(135deg, orange 60%, cyan);
+        }
+
+        #dataItem{
+            padding: 10px;
+        }
+        .heading{
+            font-size: 80px;
+            margin-left: -150px;
+        }
+
+    </style>
+    
+
+    <h1 class="heading">Mevalar ro'yxati</h1>
+    <input type="text" id="dataItem">
+    <button id="button" >Add</button>
+
+    <ul class="list" id="list">
+        <li class="list__item">Banan</li>
+        <li class="list__item">Olma</li>
+    </ul>
+    
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
